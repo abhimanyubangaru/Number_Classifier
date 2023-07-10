@@ -37,11 +37,14 @@ You can install these packages by running the following command:
    `pip install -r requirements.txt`
 
 ## Setting up the conda environment 
-
+Using the conda config file:
 ```
 conda env create -f torch-conda-nightly.yml -n torch
 ```
-
+To use this conda environment:
+```
+conda activate torch
+```
 ## Running the Application
 
 Navigate to the project directory and run:
