@@ -1,5 +1,9 @@
 # Number_Classifier
-Created a LeNet model using Pytorch to classify digits 0-9. This project is about recognizing handwritten digits using a convolutional neural network (CNN) based on the LeNet architecture.
+Created a LeNet model using Pytorch to classify digits 0-9. This project is about recognizing handwritten digits using a convolutional neural network (CNN) based on the LeNet architecture. This was my first time using PyTorch, so I decided to use one of the simpler models.
+
+## Why LeNet-5?
+
+The LeNet-5 architecture is a classic and widely used architecture for image recognition, especially digit recognition tasks. The LeNet-5 architecture consists of two sets of convolutional layers and pooling layers, followed by a flattening convolutional layer, and finally two fully connected layers. This architecture is straightforward, easy to understand and serves as a good starting point for convolutional neural networks. 
 
 ## Model Performance
 
@@ -9,6 +13,7 @@ The model was trained on the MNIST dataset and achieved 99% accuracy on the vali
 The model is trained using the train function in the model.py script. The function uses the Adam optimizer and the Cross-Entropy Loss. The training process also includes validation, and the model achieving the highest accuracy on the validation data is saved. The training was performed in a Jupyter notebook, which is included in the repository.
 
 ## Getting Started
+
 
 ### Prerequisites
 
@@ -23,14 +28,18 @@ You will need Python 3.6 or above, along with the following Python libraries ins
 
 You can install these packages by running the following command:
 
-```shell
-pip install numpy torch torchvision pillow matplotlib tkinter
-```
-## Installing
-Clone the repository to your local machine:
+## Installation
 
-```shell
-git clone https://github.com/<your_username>/handwritten-digit-recognition.git
+1. Clone the repository:
+   `git clone https://github.com/your-username/digit-classifier.git`
+2. Navigate to the cloned project directory.
+3. Install the required packages by running the following command:
+   `pip install -r requirements.txt`
+
+## Setting up the conda environment 
+
+```
+conda env create -f torch-conda-nightly.yml -n torch
 ```
 
 ## Running the Application
