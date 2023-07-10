@@ -12,21 +12,13 @@ The model was trained on the MNIST dataset and achieved 99% accuracy on the vali
 ## Training 
 The model is trained using the train function in the model.py script. The function uses the Adam optimizer and the Cross-Entropy Loss. The training process also includes validation, and the model achieving the highest accuracy on the validation data is saved. The training was performed in a Jupyter notebook, which is included in the repository.
 
-## Getting Started
-
-
-### Prerequisites
-
-You will need Python 3.6 or above, along with the following Python libraries installed:
-
+## Libraries used
 - numpy
 - torch
 - torchvision
 - PIL
 - matplotlib
 - tkinter
-
-You can install these packages by running the following command:
 
 ## Installation
 
