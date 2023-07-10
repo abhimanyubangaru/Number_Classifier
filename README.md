@@ -37,6 +37,10 @@ To use this conda environment:
 ```
 conda activate torch
 ```
+I used the following to set up the Jupyter Notebook environment.
+```
+python -m ipykernel install --user --name pytorch --display-name "Python 3.9 (pytorch)"
+```
 ## Running the Application
 
 Navigate to the project directory and run:
