@@ -36,7 +36,7 @@ def predict_digit(img, model):
     model.to(device)
     outputs = model(img_t)
     _, predicted = outputs.max(1)
-    prob = nn.functional.softmax(outputs, dim=1)[0] * 100
+    prob = nn.functional.softmax(outputs, dim=-1)[0] * 100
     return prob.detach().cpu().numpy()
 
 # Try to load the model
