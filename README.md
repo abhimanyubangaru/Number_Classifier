@@ -7,7 +7,7 @@ The LeNet-5 architecture is a classic and widely used architecture for image rec
 
 ## Model Performance
 
-The model was trained on the MNIST dataset and achieved 99% accuracy on the validation data. This is a significant achievement as it ensures a high degree of reliability when predicting the digits in various handwritten instances.
+The model was trained on the MNIST dataset and achieved 98% accuracy on the validation data. This is a significant achievement as it ensures a high degree of reliability when predicting the digits in various handwritten instances.
 
 ## Training 
 The model is trained using the train function in the model.py script. The function uses the Adam optimizer and the Cross-Entropy Loss. The training process also includes validation, and the model achieving the highest accuracy on the validation data is saved. The training was performed in a Jupyter notebook, which is included in the repository.
